@@ -5,7 +5,10 @@
     // grid-template-columns: auto 1fr;
     // align-items: center; 
     color:black;
-    background-color:$ownGrey;
+    background-color:$ownSteelblue;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
     .nav-links {
         list-style-type: none;
         display: grid;
@@ -19,11 +22,13 @@
             transition: all 0.3s linear;
             
             &:hover {
-              color:black; 
+              color:black;
+              text-decoration: underline rgb(189, 15, 102); 
             }
           }
           .active {
             color: Green;
+            
           }
         
         }

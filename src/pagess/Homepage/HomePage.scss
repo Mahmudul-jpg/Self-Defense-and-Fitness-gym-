@@ -1,0 +1,21 @@
+@import '../../index.scss';
+.home{
+    h1{
+    color: rgb(124, 119, 119);
+    font-size:xx-large;
+    background-color: green ;
+    width: 900px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+h1:hover {
+    width: 1500px;
+    background-color:yellowgreen;
+    text-align: center;
+  }
+}
+  body{
+background-color:$ownGrey;
+  }

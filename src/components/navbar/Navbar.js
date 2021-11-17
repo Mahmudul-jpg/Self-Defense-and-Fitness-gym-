@@ -25,12 +25,12 @@ const Navbar = () => {
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to='/' className="nav-link" >
+                    <NavLink to='/form' className="nav-link" >
                         JOIN NOW
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink to='/' className="nav-link">
+                    <NavLink to='/about' className="nav-link">
                         ABOUT
                     </NavLink>
                 </li>
