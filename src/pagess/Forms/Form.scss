@@ -1,23 +1,37 @@
-.btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.form-style{
     
-    .btnOne{
-        background-color:green;
-        color:white;
-        width: 100px;
-        height: 50px;
-       
+     label {
+        margin: 5px 10px 5px 0;
+      }
+      input {
+        vertical-align: middle;
+        margin: 5px 10px 5px 0;
+        padding: 10px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+      }
+   
+    .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .btnOne{
+            background-color:green;
+            color:white;
+            width: 100px;
+            height: 50px;
+           
+        }
+        .btnOne:hover{background-color:red;}
+    
+        .btnTwo{
+            background-color:#20B2AA;
+            color:white;
+            width: 120px;
+            height: 50px;
+            margin-left: 20px;
+        }
+        .btnTwo:hover{background-color:red;}
     }
-    .btnOne:hover{background-color:red;}
-
-    .btnTwo{
-        background-color:#20B2AA;
-        color:white;
-        width: 120px;
-        height: 50px;
-        margin-left: 20px;
-    }
-    .btnTwo:hover{background-color:red;}
 }
