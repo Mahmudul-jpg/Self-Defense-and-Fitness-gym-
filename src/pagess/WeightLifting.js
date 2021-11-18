@@ -1,10 +1,13 @@
 import React from 'react'
+import weight from '../images/weight.png'
 
 const WeightLifting = () => {
     return (
         <div>
-            some pictures of our members are practicing
-
+            <h1>Pictures of members practicing</h1>
+            <div>
+                <img src={weight} alt='' />
+            </div>
         </div>
     )
 }
