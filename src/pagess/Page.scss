@@ -1,0 +1,28 @@
+.text{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 140%;
+font-weight: bold;
+color:#575d66;
+}
+.Image{
+    .Image1{
+        height: 400px;
+        width: 500px;
+    }
+    .Image2{
+        padding-left: 6em; 
+        padding-right: 6em;
+        height: 400px;
+        width: 500px;
+    }
+    
+}
+.signUp{
+    background-color:#20B2AA;
+            color:white;
+            width: 120px;
+            height: 50px;
+            margin-left: 20px;
+}
+.signUp:hover{background-color:rgb(68, 21, 21);}

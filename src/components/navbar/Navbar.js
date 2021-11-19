@@ -24,14 +24,14 @@ const Navbar = () => {
                     <img src={logo} alt='' width='100px' height='100px' />
                 </li>
                 <li>
-                    <NavLink to='/' className="nav-link">
+                    <NavLink to='/hw' className="nav-link">
                         HOME WORKOUTS
                     </NavLink>
                 </li>
                 <li
                     onMouseEnter={onMouseEnter}
                     onMouseLeave={onMouseLeave}>
-                    <NavLink to='/' className="nav-link"
+                    <NavLink to='' className="nav-link"
                     >
                         PROGRAMS<FiChevronsDown />
                     </NavLink>

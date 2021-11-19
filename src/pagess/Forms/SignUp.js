@@ -1,18 +1,11 @@
 import React from 'react';
 import './Form.scss'
-import { useNavigate } from 'react-router';
+
 const SignUp = () => {
-    const navigate = useNavigate()
-    const welcome = () => {
-        navigate('/welcome')
-    }
-    const submitHandle = (e) => {
-        console.log('registered')
-        e.preventDefault()
-    }
+
     return (
         <div>
-            <form className="form-style" onSubmit={submitHandle}>
+            <form className="form-style" onSubmit=''>
                 <h1>Sign Up</h1>
                 <h3>Please fill in this form to create an account for the membership</h3>
                 <div>
@@ -51,9 +44,9 @@ const SignUp = () => {
                     <br />
                     <br />
                     <div className="btn">
-                        <button type="submit" value='' className="btnOne" onClick={welcome}> SUBMIT </button>
+                        <button type="submit" value='' className="btnOne" onClick=''> SUBMIT </button>
 
-                        <button type="" value="" className="btnTwo" onClick={welcome}>SIGN IN WITH GOOGLE</button>
+                        <button type="" value="" className="btnTwo" onClick=''>SIGN IN WITH GOOGLE</button>
                     </div>
                 </div>
             </form>

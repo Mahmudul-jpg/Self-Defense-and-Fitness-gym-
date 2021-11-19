@@ -1,7 +1,7 @@
 import Navbar from './components/navbar/Navbar'
 import './App.scss';
 import HomePage from './pagess/Homepage/HomePage'
-import Welcome from './pagess/Welcome'
+import Admin from './pagess/useForm'
 import SignUp from './pagess/Forms/SignUp'
 import About from './components/about/About'
 import { Routes, Route } from 'react-router-dom'
@@ -10,7 +10,7 @@ import Boxing from './pagess/Boxing'
 import KickBoxing from './pagess/KickBoxing'
 import Wrestling from './pagess/Wrestling'
 import WeightLifting from './pagess/WeightLifting'
-
+import HomeWork from './pagess/HomeWork'
 
 function App() {
   return (
@@ -18,7 +18,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<HomePage />} />
-        <Route path='/welcome' element={<Welcome />} />
+        <Route path='/hw' element={<HomeWork />} />
+        <Route path='/welcome' element={<Admin />} />
         <Route path='/about' element={<About />} />
         <Route path='/form' element={<SignUp />} />
         <Route path='/jiujitsu' element={< JiuJitsu />} />
